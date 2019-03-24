@@ -13,7 +13,7 @@ TEST(GetMedianTest, AddGet) {
     median.add(3);
     median.add(8);
     median.add(9);
-    ASSERT_EQ(6, median.getmedian());    
+    ASSERT_EQ(6.5, median.getmedian());    
 }
  
 int main(int argc, char **argv) {

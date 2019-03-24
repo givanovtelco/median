@@ -48,7 +48,7 @@ public:
     double getmedian() {
         if (( _nelem % 2 ) != 0)
             return _max.top();
-        return (_max.top() + _min.top()) / 2;
+        return (_max.top() + _min.top()) / 2.0;
     }
   
 private:
